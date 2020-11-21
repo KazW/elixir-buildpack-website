@@ -1,4 +1,4 @@
-name: Publish
+name: Publish Docs
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  update-docs:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,6 +25,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
+
+      - name: Install Packages
+        run: npm install
 
       - name: Build
         run: npm run build

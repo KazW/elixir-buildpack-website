@@ -1,4 +1,4 @@
-# Heroku Elixir Documentation
+# Heroku Elixir Documentation ![Publish](https://github.com/heroku-elixir/docs/workflows/Publish%20Docs/badge.svg)
 
 This repo contains the files that generate the documentation site.
 [https://heroku-elixir.app/](https://heroku-elixir.app/)
