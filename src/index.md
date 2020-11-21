@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Documents how to get started using Elixir on Heroku.
+heroImage: /assets/img/elixir-icon.png
+tagline: Get started using Elixir on Heroku.
 actionText: Quick Start →
 actionLink: /guide/
 features:
