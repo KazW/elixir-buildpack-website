@@ -2,7 +2,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Elixir Buildpack Docs',
+  title: 'Elixir Buildpack',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
