@@ -1,18 +1,15 @@
 {
-  "name": "heorku-elixir-docs",
+  "name": "heroku-elixir-website",
   "version": "0.0.1",
-  "description": "Documents how to get started using Elixir on Heroku.",
+  "description": "A website about using Elixir on Heroku.",
   "main": "index.js",
-  "authors": {
-    "name": "Kaz Walker",
-    "email": "admin@heroku-exlixir.app"
-  },
-  "repository": "https://github.com/heroku-elixir/docs",
+  "repository": "https://github.com/heroku-elixir/website",
+  "license": "Apache-2.0",
+  "private": "true",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src -d dist"
   },
-  "license": "Apache 2.0",
   "devDependencies": {
     "vuepress": "^1.5.3"
   }
