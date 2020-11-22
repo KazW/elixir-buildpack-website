@@ -2,11 +2,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Heroku Elixir Docs',
+  title: 'Elixir Buildpack Docs',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: 'Get started using Elixir on Heroku',
+  description: 'Get started using Elixir with buildpacks',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`

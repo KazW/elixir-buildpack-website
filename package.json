@@ -1,9 +1,9 @@
 {
-  "name": "heroku-elixir-website",
+  "name": "elixir-buildpack-website",
   "version": "0.0.1",
-  "description": "A website about using Elixir on Heroku.",
+  "description": "A website about using deploying Elixir using buildpacks.",
   "main": "index.js",
-  "repository": "https://github.com/heroku-elixir/website",
+  "repository": "https://github.com/elixir-buildpack/website",
   "license": "Apache-2.0",
   "private": "true",
   "scripts": {
