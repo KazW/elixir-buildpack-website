@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /assets/img/elixir-icon.png
-tagline: Get started using Elixir using a buildpack.
+tagline: Get started deploying Elixir using a buildpack.
 actionText: Quick Start →
 actionLink: /guide/
 features:
