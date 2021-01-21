@@ -1,15 +1,15 @@
 ---
 home: true
 heroImage: /assets/img/elixir-icon.png
-tagline: Get started deploying Elixir using a buildpack.
-actionText: Quick Start →
-actionLink: /guide/
+tagline: Deploy Elixir using a buildpack.
+actionText: Heroku Quick Start →
+actionLink: /heroku-buildpack/quick-start/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Heroku Buildpack
+  details: A buildpack for Heroku with the latest versions of Elixir and Erlang.
+- title: Heroku OTP Builds
+  details: An automated build system that compiles the latest Erlang releases for Heroku stacks.
+- title: Cloud Native Buildpack
+  details: An alpha Elixir cloud native buildpack.
 footer: Made by the Elixir Buildpack team with ❤️
 ---

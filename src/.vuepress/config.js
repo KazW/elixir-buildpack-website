@@ -6,7 +6,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: 'Get started using Elixir with buildpacks',
+  description: 'Deploy Elixir using buildpacks',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -26,23 +26,27 @@ module.exports = {
    */
   themeConfig: {
     logo: '/assets/img/elixir-icon.png',
-    repo: '',
-    editLinks: false,
+    docsRepo: 'elixir-buildpack/website',
+    editLinks: true,
     docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
-    nav: [],
+    editLinkText: 'Edit Page',
+    lastUpdated: true,
+    nav: [
+      { text: 'Heroku Buildpack', link: '/heroku-buildpack/' },
+      { text: 'Heroku OTP Builds', link: '/heroku-otp/' },
+      { text: 'Cloud Native Buildpack', link: '/cloud-native-buildpack/' },
+      { text: 'GitHub', link: 'https://github.com/elixir-buildpack' }
+    ],
     sidebar: {
-      '/guide/': [
+      '/heroku-buildpack/': [
         {
-          title: 'Guide',
+          title: 'Heroku Buildpack',
           collapsable: false,
           children: [
-            '',
-            'using-vue',
+            'quick-start'
           ]
         }
-      ],
+      ]
     }
   },
 
