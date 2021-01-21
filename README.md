@@ -1,4 +1,4 @@
-# Elixir Buildpack Documentation ![Publish](https://github.com/elixir-buildpack/docs/workflows/Publish%20Docs/badge.svg)
+# Elixir Buildpack Documentation ![Publish Docs](https://github.com/elixir-buildpack/website/workflows/Publish%20Docs/badge.svg)
 
 This repo contains the files that generate the documentation site.
 [https://elixir-buildpack.app/](https://elixir-buildpack.app/)
